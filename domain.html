@@ -1,0 +1,287 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6J69LQKYVV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6J69LQKYVV');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhoAmI.digital | Single Domain Lookup</title>
+  <!-- Site Icons -->
+  <link rel="shortcut icon" href="https://whoami.digital/static/images/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="https://whoami.digital/static/images/apple-touch-icon.png">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="static/style.css">
+  <!-- ALL VERSION CSS -->
+  <link rel="stylesheet" href="static/css/versions.css">
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="static/css/responsive.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="static/css/custom.css">
+
+  <!-- Modernizer for Portfolio -->
+  <script src="static/js/modernizer.js"></script>
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+       </head>
+
+<body class="host_version"> 
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL7LNCBV"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+  <!-- LOADER -->
+  <div id="preloader">
+    <div class="loader-container">
+      <div class="progress-br float shadow">
+        <div class="progress__item"></div>
+      </div>
+    </div>
+  </div>
+  <!-- END LOADER -->	
+  
+  <!-- Start header -->
+  <header class="top-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://whoami.digital/domain/index.html" >
+          <img src="static/images/logo.webp" alt=""  style="width: 150px;height: 100px;"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbars-host">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="domain.html#" id="dropdown-a" data-toggle="dropdown">Domain Lookup </a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                <a class="dropdown-item" href="domain.html">Single Domain Lookup </a>
+                <a class="dropdown-item" href="domain/multi.html">Multiple Domain Lookup</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="domain.html#" id="dropdown-a" data-toggle="dropdown">SSL Certificate Check </a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                <a class="dropdown-item" href="ssl.html">Single Domain </a>
+                <a class="dropdown-item" href="ssl/multi.html">Multiple Domain </a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="troubleshoot.html">Network Troubleshooting</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="domain.html#" id="dropdown-a" data-toggle="dropdown">Email Analysis</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                <a class="dropdown-item" href="email-analysis/checkheader.html">Analyze Email Header </a>
+                <a class="dropdown-item" href="email-analysis/blacklists.html">Email Blacklists </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="domain.html#" id="dropdown-a" data-toggle="dropdown">VirusTotal</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown-a">
+                <a class="dropdown-item" href="virus-total/check-hash.html">Search File Hashes </a>
+                <a class="dropdown-item" href="virus-total/check-url.html">Scan URLs</a>
+                <a class="dropdown-item" href="virus-total/scan-file.html">Scan a file</a>
+              </div>
+            </li>
+                      </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End header -->
+
+  <main>
+    
+<div class="container">
+  <div class="row text-center">
+
+    <div class="col-lg-12">
+      <form class="checkdomain form-inline">
+        <div class="checkdomain-wrapper">
+          <h2><strong>Single Domain Lookup</strong> </h2>
+          <div class="form-group">
+            <label class="sr-only" for="domainField">Domain name</label>
+            <input type="text" class="form-control" id="domainField" placeholder="Enter a domain name here.." name="v" required>
+            <button type="submit" class="btn btn-primary grd1"><i class="fa fa-search"></i></button>
+          </div>
+          <p>examples: google.com, wikipedia.org, media.net, mit.edu etc.</p>
+          <hr>
+          <div class="clearfix"></div>
+          <div class="checkbox checkbox-warning">
+            <input id="domaincom" type="checkbox" readonly="readonly" class="styled" checked>
+            <label for="domaincom">.com</label>
+          </div>
+          
+          <div class="checkbox checkbox-warning">
+            <input id="domainnet" type="checkbox" class="styled" readonly="readonly" checked>
+            <label for="domainnet">.net</label>
+          </div>
+          <div class="checkbox checkbox-warning">
+            <input id="domainin" type="checkbox" class="styled" readonly="readonly" checked>
+            <label for="domainin">.in</label>
+          </div>
+          <div class="checkbox checkbox-warning">
+            <input id="domaininfo" type="checkbox" class="styled" checked>
+            <label for="domaininfo">.info</label>
+          </div>
+          <div class="checkbox checkbox-warning">
+            <input id="domainai" type="checkbox" class="styled" readonly="readonly" checked>
+            <label for="domainai">.ai</label>
+          </div>
+          <div class="checkbox checkbox-warning">
+            <input id="domainxyz" type="checkbox" class="styled" readonly="readonly" checked>
+            <label for="domainxyz">.xyz</label>
+          </div>
+
+          <div class="checkbox checkbox-warning">
+            <input id="domainbiz" type="checkbox" class="styled" readonly="readonly" checked>
+            <label for="domainbiz">.biz</label>
+          </div>
+          <div class="checkbox checkbox-warning">
+            <input id="domainio" type="checkbox" class="styled" readonly="readonly" checked>
+            <label for="domainio">.io</label>
+          </div>
+
+
+
+
+        </div><!-- end checkdomain-wrapper -->
+      </form>
+    </div>
+    
+    
+    <!-- end col -->
+  </div><!-- end row -->
+</div><!-- end container -->
+
+<div class="section wb">
+  <div class="container">
+    <div class="section-title text-center">
+
+      <h2 class="text-center">
+        <strong>
+
+          
+      </strong></h2>
+
+
+       <!-- end of similar domains -->
+  </div><!-- end container -->
+</div><!-- end section -->
+
+
+       <!-- end of domain details section -->
+    </div>
+  </div>
+</div>
+
+
+  </main>
+
+  
+  
+  
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-xs-12">
+          <div class="widget clearfix">
+            <div class="widget-title">
+              <h3>About US</h3>
+            </div>
+            <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+            <p>Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+          </div><!-- end clearfix -->
+        </div><!-- end col -->
+
+        <div class="col-lg-4 col-md-4 col-xs-12">
+          <div class="widget clearfix">
+            <div class="widget-title">
+              <h3>Information Link</h3>
+            </div>
+            <ul class="footer-links">
+            </ul><!-- end links -->
+          </div><!-- end clearfix -->
+        </div><!-- end col -->
+        
+        <div class="col-lg-4 col-md-4 col-xs-12">
+          <div class="widget clearfix">
+            <div class="widget-title">
+              <h3>Contact Details</h3>
+            </div>
+
+            <ul class="footer-links">
+              <li><a href="mailto:#">info@whoami.com</a></li>
+              <li><a href="domain.html#">www.whoami.digital</a></li>
+              <li>Kathmandu, Nepal</li>
+              <li>+977-9887263636</li>
+            </ul><!-- end links -->
+          </div><!-- end clearfix -->
+        </div><!-- end col -->
+        
+      </div><!-- end row -->
+    </div><!-- end container -->
+  </footer><!-- end footer -->
+
+  <div class="copyrights">
+    <div class="container">
+      <div class="footer-distributed">
+        <div class="footer-left">                   
+          <p class="footer-company-name">All Rights Reserved. &copy; 2023 <a href="index.html">Whoami.Digital</a> Design By : <a href="index.html">Whoami</a></p>
+        </div>
+
+        <div class="footer-right">
+          <ul class="footer-links-soi">
+            <li><a href="domain.html#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="domain.html#"><i class="fa fa-github"></i></a></li>
+            <li><a href="domain.html#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="domain.html#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a href="domain.html#"><i class="fa fa-pinterest"></i></a></li>
+          </ul><!-- end links -->
+        </div>
+      </div>
+    </div><!-- end container -->
+  </div><!-- end copyrights -->
+
+  <a href="domain.html#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+  <!-- ALL JS FILES -->
+  <script src="static/js/all.js"></script>
+  <!-- ALL PLUGINS -->
+  <script src="static/js/custom.js"></script>
+  <script src="static/js/timeline.min.js"></script>
+  <script>
+    timeline(document.querySelectorAll('.timeline'), {
+      forceVerticalMode: 700,
+      mode: 'horizontal',
+      verticalStartPosition: 'left',
+      visibleItems: 4
+    });
+  </script>
+</body>
+</html>
