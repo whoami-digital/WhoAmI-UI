@@ -2783,7 +2783,7 @@ span.m_1 {
     margin: 0;
     padding: 0;
     width: 100%;
-    table-layout: fixed;
+    table-layout: auto;
 }
 
 .dmoain-pricing table .domain-head {
@@ -2823,7 +2823,7 @@ span.m_1 {
     text-transform: capitalize;
 }
 
-.dmoain-pricing tbody tr td:nth-child(1) {
+.dmoain-pricing tbody tr td:nth-child {
     font-size: 20px;
     color: #000;
     font-weight: 600;
