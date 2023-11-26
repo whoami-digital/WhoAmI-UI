@@ -210,6 +210,9 @@
 	body.host_version .checkdomain-wrapper .form-control{
 		width: 70%;
 	}
+	body.host_version .checkdomain-wrapper .form-control1{
+		width: 100%;
+	}
 	body.host_version .checkdomain-wrapper .checkbox{
 		width: 20%;
 		margin-bottom: 15px;
