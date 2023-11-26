@@ -135,7 +135,8 @@ body.host_version .checkdomain-wrapper .btn {
 .host_version .checkdomain-wrapper .btn1 {
     height: 50px;
     width: auto;
-	border: none;
+    margin: 14px 0px;
+    border: none;
 }
 
 body.host_version .icon-wrapper {
