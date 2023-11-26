@@ -123,6 +123,11 @@ body.host_version .checkdomain-wrapper .btn {
     width: 28%;
 	border: none;
 }
+body.host_version .checkdomain-wrapper .btn1 {
+    height: 50px;
+    width: auto;
+	border: none;
+}
 
 body.host_version .icon-wrapper {
     text-align: left;
