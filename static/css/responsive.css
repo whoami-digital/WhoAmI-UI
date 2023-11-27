@@ -265,6 +265,7 @@
 	}
 	.icon-wrapper p{
 		font-size: 13px;
+		overflow: auto;
 	}
 	.icon-wrapper{
 		margin-bottom: 30px;
