@@ -306,6 +306,10 @@
 	body.host_version .checkdomain-wrapper .form-control{
 		width: 62%;
 	}
+	.icon-wrapper p{
+		font-size: 13px;
+		overflow: auto;
+	}
 }
 
 
